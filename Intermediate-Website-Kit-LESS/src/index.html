@@ -57,9 +57,9 @@ eleventyNavigation:
 
     <!-- Background Image -->
     <picture class="cs-background">
-        <source media="(max-width: 600px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Landscapes/field-m.jpg">
-        <source media="(min-width: 601px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Landscapes/field.jpg">
-        <img loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Landscapes/field.jpg" alt="field" width="1920" height="1200" aria-hidden="true">
+        <source media="(max-width: 600px)" src="assets/images/bible_picture.jpg">
+        <source media="(min-width: 601px)" src="assets/images/bible_picture.jpg">
+        <img loading="lazy" decoding="async" src="assets/images/bible_picture.jpg" alt="field" width="1920" height="1200" aria-hidden="true">
     </picture>
 </section>
                                 
@@ -71,11 +71,11 @@ eleventyNavigation:
     <div class="cs-container">
         <div class="cs-content">
             <div class="cs-flex">
-                <span class="cs-topper">Our services</span>
-                <h2 class="cs-title">Grow Your Business with Our New Bold Agency</h2>
+                <h2 class="cs-title">Who we are, and what our purpose is</h2>
             </div>
             <p class="cs-text">
-                Aqestic recusandae laudantium optio amet a quisquam saepe aliquid, voluptate praesentium dicta fuga dolor error perspiciatis voluptatem eum cupiditate totam reiciendis quam minus inventore sint rem impedit esse quasi Tenetur sed reprehenderit earum a magni aliquid blanditiis dolores, veritatis soluta autem beatae officia expedita ipsum rerum doloribus sit provident delectus.
+                We are a multi-generational, multi-cultural church with a passion for living out and spreading the gospel from London Ontario. We make our best efforts to love God and each other.
+                We believe that the Bible is the inspired word of God and our guide for daily living. We appreciate the forgiveness and purpose that comes through Jesus Christ and are eager to share this good news with others.
             </p>
         </div>                  
         <ul class="cs-card-group">
@@ -88,12 +88,12 @@ eleventyNavigation:
                         <source media="(min-width: 601px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/nuclear.jpg">
                         <img loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/nuclear.jpg" alt="room" width="413" height="420">
                     </picture>
-                    <h3 class="cs-h3">Process Safety & Risk Management</h3>
+                    <h3 class="cs-h3">Our time of worship</h3>
                     <p class="cs-item-text">
-                        We provide some of the finest quality, most reliable, and cost effective services and solutions.
+                        Our weekly service begins at 10:00am Sunday, starting with bible studies and then 11:15am for worship.
                     </p>
                     <span class="cs-fake-link">
-                        Get Started
+                        Learn more
                         <img class="cs-icon" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/gold-chevron-right.svg" alt="" width="20" height="20" loading="lazy" decoding="async" aria-hidden="true">
                     </span>
                 </a>
@@ -107,12 +107,12 @@ eleventyNavigation:
                         <source media="(min-width: 601px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/worker5.jpg">
                         <img loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/worker5.jpg" alt="room" width="413" height="420">
                     </picture>
-                    <h3 class="cs-h3">Occupational Safety & Health</h3>
+                    <h3 class="cs-h3">Bible studies</h3>
                     <p class="cs-item-text">
-                        We provide some of the finest quality, most reliable, and cost effective services and solutions.
+                       We weekly meetup in St.Thomas and London for a midweek bible study. 
                     </p>
                     <span class="cs-fake-link">
-                        Get Started
+                        Learn more
                         <img class="cs-icon" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/gold-chevron-right.svg" alt="" width="20" height="20" loading="lazy" decoding="async" aria-hidden="true">
                     </span>
                 </a>
@@ -126,12 +126,12 @@ eleventyNavigation:
                         <source media="(min-width: 601px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/containers.jpg">
                         <img loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/containers.jpg" alt="room" width="413" height="420">
                     </picture>
-                    <h3 class="cs-h3">Security Assessment and Planning</h3>
+                    <h3 class="cs-h3">About us</h3>
                     <p class="cs-item-text">
-                        We provide some of the finest quality, most reliable, and cost effective services and solutions.
+                        We believe that God is love, God is good, and God is omnipotent. He is omniscient, omnipresent and that he is the ultimate source of authority in heaven and on earth
                     </p>
                     <span class="cs-fake-link">
-                        Get Started
+                        Learn more
                         <img class="cs-icon" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/gold-chevron-right.svg" alt="" width="20" height="20" loading="lazy" decoding="async" aria-hidden="true">
                     </span>
                 </a>
@@ -139,6 +139,7 @@ eleventyNavigation:
         </ul>
     </div>
 </section>
-                                
+             
+{% include 'components/cta.html' %}
 
 {% endblock %}
